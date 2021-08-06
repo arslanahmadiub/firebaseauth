@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/firebase-auth/static/css/main.e0144b1c.chunk.css",
+    "main.js": "/firebase-auth/static/js/main.46f7b913.chunk.js",
+    "main.js.map": "/firebase-auth/static/js/main.46f7b913.chunk.js.map",
+    "runtime-main.js": "/firebase-auth/static/js/runtime-main.5c05ad37.js",
+    "runtime-main.js.map": "/firebase-auth/static/js/runtime-main.5c05ad37.js.map",
+    "static/css/2.881d3c7f.chunk.css": "/firebase-auth/static/css/2.881d3c7f.chunk.css",
+    "static/js/2.7283262c.chunk.js": "/firebase-auth/static/js/2.7283262c.chunk.js",
+    "static/js/2.7283262c.chunk.js.map": "/firebase-auth/static/js/2.7283262c.chunk.js.map",
+    "index.html": "/firebase-auth/index.html",
+    "static/css/2.881d3c7f.chunk.css.map": "/firebase-auth/static/css/2.881d3c7f.chunk.css.map",
+    "static/css/main.e0144b1c.chunk.css.map": "/firebase-auth/static/css/main.e0144b1c.chunk.css.map",
+    "static/js/2.7283262c.chunk.js.LICENSE.txt": "/firebase-auth/static/js/2.7283262c.chunk.js.LICENSE.txt",
+    "static/media/logo.f4cc8bf8.png": "/firebase-auth/static/media/logo.f4cc8bf8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c05ad37.js",
+    "static/css/2.881d3c7f.chunk.css",
+    "static/js/2.7283262c.chunk.js",
+    "static/css/main.e0144b1c.chunk.css",
+    "static/js/main.46f7b913.chunk.js"
+  ]
+}
