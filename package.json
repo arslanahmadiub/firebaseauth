@@ -1,6 +1,6 @@
 {
   "name": "firebasemobilelogin",
-  "homepage": "https://arslanahmadiub.github.io/firebase-auth/",
+  "homepage": "https://arslanahmadiub.github.io/firebaseauth/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
