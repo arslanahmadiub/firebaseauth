@@ -8,9 +8,6 @@ import logo from "../../assets/images/logo.png";
 import { useLocation } from "react-router-dom";
 import CircularProgress from "@material-ui/core/CircularProgress";
 const Otp = () => {
-  const [open, setOpen] = React.useState(true);
-  const [fullWidth, setFullWidth] = React.useState(true);
-  const [maxWidth, setMaxWidth] = React.useState("xl");
   let location = useLocation();
 
   const handleClose = () => {
@@ -82,9 +79,9 @@ const Otp = () => {
   return (
     <div id="login-background">
       <Dialog
-        fullWidth={fullWidth}
-        maxWidth={maxWidth}
-        open={open}
+        fullWidth={true}
+        maxWidth="xl"
+        open={true}
         onClose={handleClose}
         aria-labelledby="max-width-dialog-title"
         PaperProps={{
@@ -104,7 +101,7 @@ const Otp = () => {
             <p style={{ textAlign: "center" }}>
               we are sending your code to{" "}
               <span style={{ color: "green" }}>
-                <b>+{location.state.mobile}</b>
+                <b>+{location.state && location.state.mobile}</b>
               </span>
             </p>
           </div>

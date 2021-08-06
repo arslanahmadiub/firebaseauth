@@ -76,7 +76,7 @@ const Login = () => {
         window.confirmationResult = confirmationResult;
 
         history.push({
-          pathname: "/otp",
+          pathname: "/firebaseauth/otp",
 
           state: { mobile: phone },
         });

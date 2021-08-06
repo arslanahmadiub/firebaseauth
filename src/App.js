@@ -7,10 +7,10 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/firebaseauth">
           <Login />
         </Route>
-        <Route exact path="/otp">
+        <Route exact path="/firebaseauth/otp">
           <Otp />
         </Route>
       </Switch>
